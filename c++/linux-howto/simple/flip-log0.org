@@ -1,0 +1,138 @@
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects# ssh mitchgre@access.engr.oregonstate.edu
+mitchgre@access.engr.oregonstate.edu's password: 
+Permission denied, please try again.
+mitchgre@access.engr.oregonstate.edu's password: 
+Last login: Fri Apr 17 09:20:24 2015 from 24.229.153.188.res-cmts.sm.ptd.net
+========================================================================
+This system is strictly for use by faculty, students, and staff of
+       the College of Engineering, Oregon State University.  
+
+    Unauthorized access is prohibited - violators will be prosecuted
+
+      Use should be consistent with the OSU Acceptable Use Policy
+       as well as College of Engineering policies and guidelines.
+  Refer to http://engr.oregonstate.edu/computing/faqs/coe_aup/index.html
+
+========================================================================
+   Quotas are used for home directories, incoming email, and printing.
+                    For details, check: 
+	http://engr.oregonstate.edu/computing/faqs/quotas.html
+------------------------------------------------------------------------
+If you have any problems with this machine, please mail support@engr.orst.edu
+========================================================================
+
+Terminal type? [dumb] 
+ 07:34:56 up 36 days,  8:39, 27 users,  load average: 2.07, 2.05, 2.02
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+rappab   pts/1    c-68-52-69-94.hs 07:18    2:07   0.07s  0.07s -tcsh
+mitchgre pts/3    24.229.153.188.r 07:34    1.00s  0.13s  0.07s w
+rappab   pts/8    c-68-52-69-94.hs 06:27   44.00s  1.98s  1.90s vim stringSort.
+lallyk   pts/11   cpe-66-65-138-17 07:12   21:01   0.08s  0.02s vim stringSort.
+countsr  pts/12   108-88-120-95.li Wed20   12:14m  0.12s  0.00s aaa
+hexi     pts/19   dear112-2.mime.o 20Apr15 11days  0.07s  0.07s -tcsh
+cloutmad pts/22   c-76-126-172-186 26Apr15  2days  0.91s  0.91s -bash
+hexi     pts/23   dear112-2.mime.o 06Apr15 16days  0.08s  0.08s -tcsh
+butkusm  pts/26   c-50-137-183-252 Fri07   24:10m  2.53s  2.53s ssh -t butkusm@
+montagne pts/28   petra.cce.oregon 17Apr15 21:55m  0.55s  0.36s ssh zen
+keith2   pts/32   dear209-02.mime. 20Apr15 11days  0.06s  0.06s -tcsh
+cantreld pts/34   206.125.79.61    Mon16    2days  1.14s  0.96s ssh os-class.en
+nilparus pts/36   c-98-232-197-30. 23Apr15  8days  0.08s  0.03s ssh os-class.en
+yorka    pts/38   cpe-67-242-61-54 04Apr15  5days  0.52s  0.52s -tcsh
+jaegerja pts/52   10-162-169-136.w Fri17    7:21m  0.32s  0.21s vim main.cpp
+crismand pts/54   c-50-186-37-236. Fri16    7:20m  0.05s  0.05s -bash
+austins  pts/15   :2.0             01Apr15 30days  9.61s  0.00s -csh
+carlinja pts/56   c-73-188-58-21.h Thu11   44:19m  0.07s  0.07s -tcsh
+linnenbj pts/67   c-98-222-134-12. 23Apr15  5days  0.22s  0.22s -tcsh
+zengx    pts/70   50.46.154.13     Fri15    8:17m  0.13s  0.13s -tcsh
+minnerp  pts/74   75-107-120-38.cu Fri14    9:43m  0.08s  0.00s more auto.net
+crismand pts/75   c-50-186-37-236. Fri15    7:22m  0.04s  0.00s run
+steve2   pts/79   cotto.engr.orego 24Apr15  7days  0.02s  0.02s -bash
+richarla pts/84   c-50-159-60-104. Thu14   40:56m  0.07s  0.07s -tcsh
+egana    pts/102  137.53.32.219    23Apr15  8days  0.15s  0.06s -csh -c ssh -t 
+jaegerja pts/107  10-162-169-136.w Fri18   10:55m  0.12s  0.06s vim RPSGame.h
+hershn   pts/124  cpe-66-65-96-4.n Sun21    3days  0.07s  0.07s -tcsh
+flip3 ~ 151% pwd
+/nfs/stak/students/m/mitchgre
+flip3 ~ 152% ls
+cs165			 cs372-computer-networks  sessions
+cs261-data-structures	 mail			  Windows.Documents
+cs344-operating-systems  public_html		  Windows.Profile
+flip3 ~ 153% cd cs372-computer-networks
+flip3 ~/cs372-computer-networks 154% ls
+projects
+flip3 ~/cs372-computer-networks 155% cd project1/
+project1/: No such file or directory.
+flip3 ~/cs372-computer-networks 156% ls
+projects
+flip3 ~/cs372-computer-networks 157% ls
+projects
+flip3 ~/cs372-computer-networks 158% cd projects/project1
+flip3 ~/cs372-computer-networks/projects/project1 159% ls
+c++  java  Project1.pdf
+flip3 ~/cs372-computer-networks/projects/project1 160% cd c++
+flip3 ~/cs372-computer-networks/projects/project1/c++ 161% ls
+beej  linux-howto
+flip3 ~/cs372-computer-networks/projects/project1/c++ 162% cd linux-howto
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto 163% ls
+simple
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto 164% cd simple
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 165% ls
+client	client-armel  client.c	server	server.c  server.c~
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 166% gcc server.c -o server
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 167% ls
+client	client-armel  client.c	server	server.c  server.c~
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 168% ./server 123456
+  C-c C-c^C
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 169% ifconfig 
+bond0     Link encap:Ethernet  HWaddr 00:1E:68:37:8D:6C  
+          inet addr:128.193.54.10  Bcast:128.193.55.255  Mask:255.255.254.0
+          inet6 addr: fe80::21e:68ff:fe37:8d6c/64 Scope:Link
+          UP BROADCAST RUNNING MASTER MULTICAST  MTU:1500  Metric:1
+          RX packets:548965592 errors:0 dropped:275 overruns:0 frame:0
+          TX packets:512403629 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:259631876279 (241.8 GiB)  TX bytes:476194955990 (443.4 GiB)
+
+eth0      Link encap:Ethernet  HWaddr 00:1E:68:37:8D:6C  
+          UP BROADCAST RUNNING SLAVE MULTICAST  MTU:1500  Metric:1
+          RX packets:505903130 errors:0 dropped:275 overruns:0 frame:0
+          TX packets:512403631 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:256030488312 (238.4 GiB)  TX bytes:476194956800 (443.4 GiB)
+          Interrupt:18 Memory:fc5e0000-fc600000 
+
+eth1      Link encap:Ethernet  HWaddr 00:1E:68:37:8D:6C  
+          UP BROADCAST RUNNING SLAVE MULTICAST  MTU:1500  Metric:1
+          RX packets:43062462 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3601387967 (3.3 GiB)  TX bytes:158 (158.0 b)
+          Interrupt:19 Memory:fc5c0000-fc5e0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:27750573 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:27750573 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:24351086941 (22.6 GiB)  TX bytes:24351086941 (22.6 GiB)
+
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 170% ./server 123456
+  C-c C-c^C
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 171% echo hostname
+echo hostname
+hostname
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 172% echo $HOSTNAME
+flip3.engr.oregonstate.edu
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 173% ./server 123456
+
+
+Here is the message: right okay
+
+flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 174% flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 174% flip3 ~/cs372-computer-networks/projects/project1/c++/linux-howto/simple 174% Write failed: Broken pipe
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects# ls
+project1
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects# ls
+project1
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects# cd projc

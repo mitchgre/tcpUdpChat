@@ -1,0 +1,37 @@
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto# ls
+client  client.c  server  server.c
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto# ./client localhost 123456
+Please enter the message: Okay sure
+I got your message
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto# ifconfig 
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:826 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:826 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:124809 (124.8 KB)  TX bytes:124809 (124.8 KB)
+
+mlan0     Link encap:Ethernet  HWaddr 30:59:b7:00:d9:c0  
+          inet addr:10.0.0.9  Bcast:10.0.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::3259:b7ff:fe00:d9c0/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:16629 errors:0 dropped:267 overruns:0 frame:0
+          TX packets:18871 errors:19 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6432425 (6.4 MB)  TX bytes:2671672 (2.6 MB)
+
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto# cd simple/
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# ./client localhost 123456
+Please enter the message: hello from gs2
+I got your message
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# ls
+client        client.c  server.c   server-multiuser    server-multiuser.cpp
+client-armel  server    server.c~  server-multiuser.c  server-multiuser.cpp~
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# g++ server-multiuser.cpp -o server-multiuser++
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# ./server-multiuser++ 1234567
+Here is the message: tally ho
+
+Here is the message: tally ho yourself good chap!
+

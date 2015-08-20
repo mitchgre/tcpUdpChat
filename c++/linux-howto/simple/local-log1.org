@@ -1,0 +1,64 @@
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# ./client localhost 1234567
+Please enter the message: tally ho
+I got your message
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# ./client localhost 1234567
+Please enter the message: tally ho yourself good chap!
+I got your message
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# ls
+client        server     server-multiuser    server-multiuser.cpp
+client-armel  server.c   server-multiuser++  server-multiuser.cpp~
+client.c      server.c~  server-multiuser.c
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# mkdir ../mod1
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# cp -v ./* ../mod1/
+‘./client’ -> ‘../mod1/client’
+‘./client-armel’ -> ‘../mod1/client-armel’
+‘./client.c’ -> ‘../mod1/client.c’
+‘./server’ -> ‘../mod1/server’
+‘./server.c’ -> ‘../mod1/server.c’
+‘./server.c~’ -> ‘../mod1/server.c~’
+‘./server-multiuser’ -> ‘../mod1/server-multiuser’
+‘./server-multiuser++’ -> ‘../mod1/server-multiuser++’
+‘./server-multiuser.c’ -> ‘../mod1/server-multiuser.c’
+‘./server-multiuser.cpp’ -> ‘../mod1/server-multiuser.cpp’
+‘./server-multiuser.cpp~’ -> ‘../mod1/server-multiuser.cpp~’
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/simple# cd ../mod1/
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# ls
+client        server     server-multiuser    server-multiuser.cpp
+client-armel  server.c   server-multiuser++  server-multiuser.cpp~
+client.c      server.c~  server-multiuser.c
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# git init
+Initialized empty Git repository in /cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1/.git/
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# git add *.c
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# git add server-multiuser.cpp
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   client.c
+	new file:   server-multiuser.c
+	new file:   server-multiuser.cpp
+	new file:   server.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	client
+	client-armel
+	server
+	server-multiuser
+	server-multiuser++
+	server-multiuser.cpp~
+	server.c~
+
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# git commit -m "base to work off"
+[master (root-commit) f087de6] base to work off
+ 4 files changed, 270 insertions(+)
+ create mode 100644 client.c
+ create mode 100644 server-multiuser.c
+ create mode 100644 server-multiuser.cpp
+ create mode 100644 server.c
+root@gspu:/cf/home/notes/oregon-state-post-bacc/cs372-computer-networks/projects/project1/c++/linux-howto/mod1# 
